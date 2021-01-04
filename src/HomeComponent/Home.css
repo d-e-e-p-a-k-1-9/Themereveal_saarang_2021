@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&display=swap');
+
+h1 {
+    color: palegreen;
+    font-weight: 1000;
+    font-size: 6em;
+    text-align: left;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+h5 {
+    color: white;
+        font-weight: 100;
+        font-size: 1.5em;
+        font-family: 'Lobster Two', cursive;
+}
+
+
+@media screen and (max-width:820px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    h5 {
+        margin: 0 10px;
+    }
+    h1 {
+        border-bottom: 5px solid purple;
+        
+    }
+}
+@media screen and (min-width:820px){
+    
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: absolute;;
+        left: 0;
+        width: 70vw;
+        align-items: center;
+          
+    }
+
+    h1 {
+        border-right: 5px solid purple;
+        padding-right: 25px;
+    }
+    h5 {
+        margin-left:  25px;
+    }
+}

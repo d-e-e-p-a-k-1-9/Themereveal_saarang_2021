@@ -1,0 +1,97 @@
+.van{animation: move 15s infinite;
+    -ms-animation: move 15s infinite; 
+    -webkit-animation: move 15s infinite; 
+    -moz-animation: move 15s infinite;
+    width: 35%;
+    
+  }
+  
+  @media screen and (max-width:820px) {
+      .van {
+          position: absolute;
+          top:-250px;
+          left:25%;
+          width: 45%;
+      }
+  }
+  @media screen and (min-width:820px) {
+    .van {
+        margin-left:  65%; 
+        z-index: 100000;
+    }
+}
+  @keyframes move {
+    0%{
+      
+      transform: scale(1.0);
+      -ms-transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+      -o-transform: scale(1.0);
+      -moz-transform: scale(1.0);
+    }
+    
+    50% {
+        transform: scale(1.25);
+        -ms-transform: scale(1.25);
+        -webkit-transform: scale(1.25);
+        -o-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+    }
+    100% {
+      transform: scale(1.0);
+      -ms-transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+      -o-transform: scale(1.0);
+      -moz-transform: scale(1.0);
+    }
+  }
+  
+  .ph {
+    animation: move 15s infinite;
+    -ms-animation: move 15s infinite; 
+    -webkit-animation: move 15s infinite; 
+    -moz-animation: move 15s infinite;
+      width: 25%;
+    
+  }
+  
+  @media screen and (max-width:820px) {
+      .van {
+          position: absolute;
+          top:-250px;
+          right:25%;
+          width: 45%;
+      }
+  }
+  @media screen and (min-width:820px) {
+    .van {
+        margin-left:  65%; 
+        z-index: 100000;
+    }
+}
+  @keyframes move {
+    0%{
+      
+      transform: scale(1.0);
+      -ms-transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+      -o-transform: scale(1.0);
+      -moz-transform: scale(1.0);
+    }
+    
+    50% {
+        transform: scale(1.25);
+        -ms-transform: scale(1.25);
+        -webkit-transform: scale(1.25);
+        -o-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+    }
+    100% {
+      transform: scale(1.0);
+      -ms-transform: scale(1.0);
+      -webkit-transform: scale(1.0);
+      -o-transform: scale(1.0);
+      -moz-transform: scale(1.0);
+    }
+  }
+  
